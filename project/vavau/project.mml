@@ -1,0 +1,50 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -174.14473858756358,
+        -18.819114236073087,
+        -173.90317136979547,
+        -18.568080203515652
+      ],
+      "id": "vavau",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/00094708/Dropbox (aciarlal)/ACIAR Livelihoods and Landscapes/research_activities/3_2/tax-allotments/tax-allotment-web-maps/geojson/vavau-tax-allotment.geojson",
+        "layer": "OGRGeoJSON",
+        "type": "ogr"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "vavau",
+      "layerId": "vavau"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Vava'u Tax Allotments",
+  "description": "",
+  "lastBrowsedFolder": "/Users/00094708/Dropbox (aciarlal)/ACIAR Livelihoods and Landscapes/research_activities/3_2/tax-allotments/tax-allotment-web-maps/geojson"
+}
