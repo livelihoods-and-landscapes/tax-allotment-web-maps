@@ -40,3 +40,11 @@ Export the MBTiles map tiles to xyx scheme folder of png files. `outdir` is the 
 cd mbutil
 ./mb-util "<path-to-mbtiles>" outdir --image_format=png
 ```
+
+## Upload to cloud storage
+
+Upload directory containing map tiles to Google Cloud Storage using gsutil.
+
+```
+gsutil cp -r ./<dir with png tiles> gs://<bucket to store tiles>
+```
